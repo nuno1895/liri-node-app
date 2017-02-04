@@ -10,16 +10,38 @@
 	* This allows the user to search for a song and access information about that song from Spotify
 - **OMDB**
 	* This allows the user to search for a movie title and return specific IMDB information about that movie
+- **Colors**
+* This allows color and style in your node.js console
+
+Inside of the folder in which you've cloned the files to, run the following command:
+```
+npm install
+```
+
+## Running the application
+
+Grab tweets from Twitter: `node liri my-tweets`
+
+Search a song on Spotify: `node liri spotify-this-song [song]`
+
+Get information about a movie: `node liri movie-this [movie]`
+
+Run any commands you have run in the past: `node liri do-what-it-says`
 
 
-#### NPM Packages Used 
-- **fs**
-	* Used to log all information searched in the log.txt file to allow the user to reference this information at a later time
-- **Twitter**
-	* Used to access my twitter feed and return the latest tweets
-- **Spotify**
-	* Used to access the Spotify API and search for song information
-- **Request**
-	* Used to request the OMDB API
-- **Colors/safe**
-	* Used to allow the user to see the prompts clearly and the headers for each piece of information they receive after the request is made
+All commands are logged to the `random.txt` file.
+
+
+## Built With
+
+* [Node.JS](https://nodejs.org/en/) - The backend this application is built on
+* [Twitter](http://www.twitter.com) - Cannot have tweets without twitter :smile:
+* [Spotify](http://www.spotify.com) - Used to get song information
+* [OMDb API](https://www.omdbapi.com/) - Used to get movie information
+
+
+
+## License
+
+This project is licensed under the MIT License
+
